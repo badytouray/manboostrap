@@ -1,24 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+
+import Slider from './Components/Slider/Slider';
+import NavBar from './Components/NavBar/Navbar';
+import About from "./Components/About/About";
+import Faq from "./Components/FAQ/Faq";
+import ContactUs from "./Components/ContactUs/ContactUs" 
+import Events from "./Components/Events/Events";
+import Interviews from "./Components/Interviews/Interviews";
+import Gallary from "./Components/Gallary/Gallary";
+import Videos from "./Components/Videos/Videos";
+import ManCrew from "./Components/ManCrew/ManCrew";
+import TermsAndConditions from "./Components/TermsAndConditions/TermsAndConditions";
+import RampaigeInterview from "./Components/Interviews/RampaigeInterview/RampaigeInterview";
+import News from "./Components/News/News";
+import Home from "./Components/Home/Home";
+import LatestInterview from "./Components/LatestInterview/LatestInterview";
+import FeaturedEvents from "./Components/Home/FeaturedEvents/FeaturedEvents";
+import Store from "./Components/Store/Store";
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <> 
+    <NavBar />
+    <Slider />
+    <Router>
+      <Routes>
+        <Route path="about-us"  element={<About />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/interviews" element={<Interviews />} />
+        <Route path="/picture-gallery" element={<Gallary />} />
+        <Route path="/video-gallery" element={<Videos />} />
+        <Route path="/man-crew" element={<ManCrew />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions/>} />
+        <Route path="/maddy-v-interview" element={<RampaigeInterview/>} />
+        {/* <Route path="/rampaige-interview" element={<RampaigeInterview/>} /> */}
+        <Route path="/news" element={<News/>} />
+        <Route path="/home" element={<Home/>} />
+        <Route path="/latest-interview" element={<LatestInterview />} />
+        <Route path="/latest-interview" element={<FeaturedEvents />} />
+        <Route path="/store" element={<Store />} />
+ 
+        
+      </Routes>
+    </Router>
+ 
+      
+    </>
   );
 }
 
