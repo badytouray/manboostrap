@@ -21,6 +21,12 @@ import Home from "./Components/Home/Home";
 import LatestInterview from "./Components/LatestInterview/LatestInterview";
 import FeaturedEvents from "./Components/Home/FeaturedEvents/FeaturedEvents";
 import Store from "./Components/Store/Store";
+import MensClothing from "./Components/Store/MensClothing/MensClothing";
+import WomensClothing from "./Components/Store/WomensClothing/WomensClothing";
+import PromoteEvents from "./Components/PromoteEvents/PromoteEvents";
+import Careers from "./Components/Careers/Careers";
+// import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
+
 
 
 
@@ -32,6 +38,7 @@ function App() {
     <> 
     <NavBar />
     <Slider />
+    
     <Router>
       <Routes>
         <Route path="about-us"  element={<About />} />
@@ -50,12 +57,17 @@ function App() {
         <Route path="/latest-interview" element={<LatestInterview />} />
         <Route path="/latest-interview" element={<FeaturedEvents />} />
         <Route path="/store" element={<Store />} />
+        <Route path="/mens-clothing" element={<MensClothing />} />
+        <Route path="/womens-clothing" element={<WomensClothing />} />
+        <Route path="/list-events" element={<PromoteEvents />} />
+        <Route path="/careers" element={<Careers />} />
+        
  
         
       </Routes>
     </Router>
- 
-      
+    {/* <ScrollToTop /> */}
+    
     </>
   );
 }

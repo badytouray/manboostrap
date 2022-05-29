@@ -121,6 +121,108 @@ function ManCrew() {
           <img className="img_card" alt="" src={MaddyV} style={{width: "300px", height: "250px", margin: "auto", padding: "5px"}} />
           <br />
           <br />
+        <h3 class="card-title">Dj Elymental</h3>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <br />
+        <h6>M.A.N Role</h6>
+        <ul>
+            <li>Photographer</li>
+            <li>Content creator</li>
+            <li>Web designer</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a
+        class="btn btn-primary btn-floating m-1"
+        style={{"background-color": "#ac2bac"}}
+        href="http://www.instagram.com/music__all__night"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style={{"background-color": "#3b5998"}}
+        href="http://www.facebook.com/musicall.nightuk"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+          <img className="img_card" alt="" src={MaddyV} style={{width: "300px", height: "250px", margin: "auto", padding: "5px"}} />
+          <br />
+         
+        <h3 class="card-title">Dj Rayn</h3>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+        <h6>M.A.N Role</h6>
+        <ul>
+            <li>Photographer</li>
+            <li>Content creator</li>
+            <li>Web designer</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a
+        class="btn btn-primary btn-floating m-1"
+        style={{"background-color": "#ac2bac"}}
+        href="http://www.instagram.com/music__all__night"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style={{"background-color": "#3b5998"}}
+        href="http://www.facebook.com/musicall.nightuk"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+          <img className="img_card" alt="" src={MaddyV} style={{width: "300px", height: "250px", margin: "auto", padding: "5px"}} />
+          <br />
+          <br />
+        <h3 class="card-title">MC Zebedee</h3>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <br />
+        <h6>M.A.N Role</h6>
+        <ul>
+            <li>Talent Scout</li>
+            <li>Content creator</li>
+            <li>Event host</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a
+        class="btn btn-primary btn-floating m-1"
+        style={{"background-color": "#ac2bac"}}
+        href="http://www.instagram.com/music__all__night"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style={{"background-color": "#3b5998"}}
+        href="http://www.facebook.com/musicall.nightuk"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+          <img className="img_card" alt="" src={MaddyV} style={{width: "300px", height: "250px", margin: "auto", padding: "5px"}} />
+          <br />
+          <br />
         <h3 class="card-title">Shaun</h3>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         <br />

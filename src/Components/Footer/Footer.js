@@ -16,14 +16,28 @@ function Footer() {
     {/* <!----------- Footer ------------> */}
     <footer class="footer-bs cols-lg-4" style={{ textAlign: "center", backgroundColor: "black"}} >
         <div class="row">
-          <div class="col-md-4 footer-brand animated fadeInLeft">
+          <div class="col-md-3 footer-brand animated fadeInLeft">
               <h2 style={{color: "white"}} >Logo</h2>
                 <p style={{color: "white"}} >Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula,</p>
                 <p>© 2014 BS3 UI Kit, All rights reserved</p>
             </div>
+
+
           <div class="col-md-2 footer-nav animated fadeInUp">
               <h4 style={{color: "white"}} >Menu </h4>
-             
+              <div class="col-md-6">
+                    <ul class="list">
+                        <li><a href="/about-us">About Us</a></li>
+                        <li><a href="/man-crew">M.A.N Crew</a></li>
+                        <li><a href="/list-events">List Events</a></li>
+                        <li><a href="/careers">Careers</a></li>
+                        <li><a href="/faq">Faq</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-2 footer-nav animated fadeInUp">
+              <h4 style={{color: "white"}} >Menu </h4>
               <div class="col-md-6">
                     <ul class="list">
                         <li><a href="/about-us">About Us</a></li>
@@ -34,12 +48,16 @@ function Footer() {
                     </ul>
                 </div>
             </div>
+
+
+
+
           <div class="col-md-2 footer-social animated fadeInDown">
               <h4  style={{color: "white"}} >Follow Us</h4>
               <ul>
-                  <li><a href="#">Facebook</a></li>
-                  <li><a href="#">Twitter</a></li>
-                  <li><a href="#">Instagram</a></li>
+                  <li><a href="http://www.facebook.com/musicall.nightuk">Facebook</a></li>
+                  <li><a href="http://www.twitter.com/musicall.nightuk">Twitter</a></li>
+                  <li><a href="/http://instagram.com/music__all__night">Instagram</a></li>
                   <li><a href="#">RSS</a></li>
                 </ul>
             </div>

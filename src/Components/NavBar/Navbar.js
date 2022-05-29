@@ -9,7 +9,7 @@ function NavBar() {
     <>
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Music All Night</a>
+    <a class="navbar-brand" href="/home">Music All Night</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,6 +31,9 @@ function NavBar() {
         <li>
         <a class="nav-link active" aria-current="page" href="/interviews">Interviews</a>
         </li>
+        <li>
+        <a class="nav-link active" aria-current="page" href="/list-events">Promote event</a>
+        </li>
         {/* <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/faq">FAQ</a>
         </li> */}
@@ -40,6 +43,7 @@ function NavBar() {
           <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
           Media
           </a>
+        
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="/picture-gallery">Images</a></li>
             <li><a class="dropdown-item" href="/video-gallery">Videos</a></li>
@@ -47,14 +51,34 @@ function NavBar() {
             <li><hr class="dropdown-divider" /></li>
           </ul>
         </li>
-        <li class="nav-item">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+          MERCH
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/mens-clothing">Mens</a></li>
+            <li><a class="dropdown-item" href="/womens-clothing">Womens</a></li>
+            <li><a class="dropdown-item" href="/store">Accessories</a></li>
+            <li><a class="dropdown-item" href="#"></a></li>
+            <li><hr class="dropdown-divider" /></li>
+          </ul>
+        </li>
+        {/* <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/store">Store</a>
-        </li>
+        </li> */}
         
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/contact-us">Contact Us</a>
-        </li>
+        
       </ul>
+      <div class="form">
+                  <i class="fa fa-search"></i>
+                  <input type="text" class="form-control form-input" placeholder="Search anything..."/>
+                  <span class="left-pan"><i class="fa fa-microphone"></i></span>
+                </div>
+
+                <li class="nav-item">
+          <button type="button" class="btn btn-primary" aria-current="page" href="/contact-us">Contact Us</button>
+        </li>
       {/* <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
         <button class="btn btn-outline-success" type="submit">Search</button>
