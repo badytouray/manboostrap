@@ -1,5 +1,6 @@
 
 import React from 'react'
+import SignUpToggleForm from '../SignUpToggleForm/SignUpToggleForm'
 // import { Link } from "react-router-dom";
 
 
@@ -74,11 +75,13 @@ function NavBar() {
                   <i class="fa fa-search"></i>
                   <input type="text" class="form-control form-input" placeholder="Search anything..."/>
                   <span class="left-pan"><i class="fa fa-microphone"></i></span>
-                </div>
+      </div>
 
+      
                 <li class="nav-item">
-          <button type="button" class="btn btn-primary" aria-current="page" href="/contact-us">Contact Us</button>
+          <button type="button" class="btn btn-primary" aria-current="page"><a href="/contact-us" style={{color: "white"}}>Contact Us</a></button>
         </li>
+        <SignUpToggleForm />
       {/* <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
         <button class="btn btn-outline-success" type="submit">Search</button>

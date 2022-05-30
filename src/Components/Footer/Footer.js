@@ -19,7 +19,7 @@ function Footer() {
           <div class="col-md-3 footer-brand animated fadeInLeft">
               <h2 style={{color: "white"}} >Logo</h2>
                 <p style={{color: "white"}} >Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula,</p>
-                <p>© 2014 BS3 UI Kit, All rights reserved</p>
+                <p>© 2022 BS3 UI Kit, All rights reserved</p>
             </div>
 
 
@@ -40,7 +40,7 @@ function Footer() {
               <h4 style={{color: "white"}} >Menu </h4>
               <div class="col-md-6">
                     <ul class="list">
-                        <li><a href="/about-us">About Us</a></li>
+                        <li><a href="/services">Services</a></li>
                         <li><a href="/store">Store</a></li>
                         <li><a href="/contact-us">Contacts</a></li>
                         <li><a href="/terms-and-conditions">T&C's</a></li>
@@ -77,7 +77,7 @@ function Footer() {
             </div>
         </div>
     </footer>
-    <section style={{ textAlign: "center", margin: "10px auto"}} class="text-center" ><p>Designed by <a href="http://enfoplus.net">badytouray.com</a></p></section>
+    <section style={{ textAlign: "center", margin: "10px auto"}} class="text-center" ><p>Designed by <a href="http://badytouray.com">badytouray.com</a></p></section>
 
 </div>
 

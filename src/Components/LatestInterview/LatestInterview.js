@@ -12,7 +12,9 @@ function LatestInterview() {
     <div class="card mb-3 container" >
   <div class="row collg-6">
     <div class="col-md-6">
+      <a href="/maddy-v-interview">
       <img src={MaddyV} class="img-fluid rounded-start" alt="..." style={{ height: "500px", width: "500px" }}/>
+      </a>
     </div>
     <div class="col-md-6">
       <div class="card-body">

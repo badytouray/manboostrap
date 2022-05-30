@@ -18,8 +18,8 @@ function Careers() {
         <img src={Harry} class="card-img-top" alt="..." style={{width: "400px", padding: "10px"}}/>
         <div class="card-body">
             <h5 class="card-title">Event Management</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-success">Apply Now</a>
+            <p class="card-text">Operational experience, booking Headline acts, organising photoshoots and communicating with DJ's and venues. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="/contact-us" class="btn btn-success">Apply Now</a>
         </div>
         </div>
     </div>
@@ -39,7 +39,7 @@ function Careers() {
             <div class="card" style={{width: "400px", margin: "10px", padding: "10px"}}>
         <img src={Harry} class="card-img-top" alt="..." style={{width: "400px", padding: "10px"}}/>
         <div class="card-body">
-            <h5 class="card-title">Content creator & influencer</h5>
+            <h5 class="card-title">Content creator & designer</h5>
             <p class="card-text">Graphic designer, promotional campaign Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="btn btn-success">Apply Now</a>
         </div>

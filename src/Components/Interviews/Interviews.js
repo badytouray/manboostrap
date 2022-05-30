@@ -12,11 +12,13 @@ function Interviews() {
         <br />
         <div class="card-group">
   <div class="card">
+  <a href="/maddy-v-interview" style={{ color: 'inherit', textDecoration: 'inherit'}}>
     <img src={Rampaige} class="card-img-top" alt="..." style={{ margin: "10px", height: "400px", width: "450px"}}  />
+    </a>
     <div class="card-body">
       <h5 class="card-title">Rampaige</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <button type="button" class="btn btn-primary"> <a href="/maddy-v-interview" style={{ color: 'inherit', textDecoration: 'inherit'}}>Read more</a></button>
+      <button type="button" class="btn btn-primary"> Read more</button>
     </div>
   </div>
   <div class="card">

@@ -96,7 +96,7 @@ emailjs.sendForm('service_3iuzoor', 'template_4s132rl', e.target, 'user_FaUBF1FO
           <div className="col-25">
             <label for="treamenttime">Appointment (date and time):</label>
             </div>
-            <div className="datetime-local" className="col-75">
+            <div className="datetime-local" class="col-75">
           {/* <DateTimePicker /> */}
           <input type="datetime-local" format="ddMMyyy" onfocus="(this.type='date')" id="lname" name="datetime"></input>
           </div>

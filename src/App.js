@@ -25,6 +25,11 @@ import MensClothing from "./Components/Store/MensClothing/MensClothing";
 import WomensClothing from "./Components/Store/WomensClothing/WomensClothing";
 import PromoteEvents from "./Components/PromoteEvents/PromoteEvents";
 import Careers from "./Components/Careers/Careers";
+import Services from "./Components/Services/Services";
+import SignUpToggleForm from "./Components/SignUpToggleForm/SignUpToggleForm";
+import WebDesign from "./Components/WebDesign/WebDesign";
+import MerchPrinting from "./Components/MerchPrinting/MerchPrinting";
+
 // import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 
@@ -61,6 +66,11 @@ function App() {
         <Route path="/womens-clothing" element={<WomensClothing />} />
         <Route path="/list-events" element={<PromoteEvents />} />
         <Route path="/careers" element={<Careers />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/sign-up" element={<SignUpToggleForm />} />
+        <Route path="/web-design" element={<WebDesign />} />
+        <Route path="/merch-printing" element={<MerchPrinting />} />
+       
         
  
         
