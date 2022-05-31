@@ -29,6 +29,9 @@ import Services from "./Components/Services/Services";
 import SignUpToggleForm from "./Components/SignUpToggleForm/SignUpToggleForm";
 import WebDesign from "./Components/WebDesign/WebDesign";
 import MerchPrinting from "./Components/MerchPrinting/MerchPrinting";
+import FlyerPostersPrint from "./Components/FlyerPostersPrint/FlyerPostersPrint";
+import NewArrivals from "./Components/NewArrivals/NewArrivals";
+import Accessories from "./Components/Accessories/Accessories";
 
 // import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
@@ -70,6 +73,9 @@ function App() {
         <Route path="/sign-up" element={<SignUpToggleForm />} />
         <Route path="/web-design" element={<WebDesign />} />
         <Route path="/merch-printing" element={<MerchPrinting />} />
+        <Route path="/flyer-and-poster-design-and-print" element={<FlyerPostersPrint />} />
+        <Route path="/flyer-and-poster-design-and-print" element={<NewArrivals />} />
+        <Route path="/Accessories" element={<Accessories />} />
        
         
  

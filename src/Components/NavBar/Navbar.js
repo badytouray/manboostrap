@@ -55,12 +55,12 @@ function NavBar() {
 
         <li class="nav-item dropdown">
           <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-          MERCH
+          SHOP
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="/mens-clothing">Mens</a></li>
             <li><a class="dropdown-item" href="/womens-clothing">Womens</a></li>
-            <li><a class="dropdown-item" href="/store">Accessories</a></li>
+            <li><a class="dropdown-item" href="/accessories">Accessories</a></li>
             <li><a class="dropdown-item" href="#"></a></li>
             <li><hr class="dropdown-divider" /></li>
           </ul>
@@ -71,17 +71,20 @@ function NavBar() {
         
         
       </ul>
-      <div class="form">
+      {/* <div class="form">
                   <i class="fa fa-search"></i>
                   <input type="text" class="form-control form-input" placeholder="Search anything..."/>
                   <span class="left-pan"><i class="fa fa-microphone"></i></span>
-      </div>
+      </div> */}
 
-      
-                <li class="nav-item">
-          <button type="button" class="btn btn-primary" aria-current="page"><a href="/contact-us" style={{color: "white"}}>Contact Us</a></button>
-        </li>
-        <SignUpToggleForm />
+<div class="row">
+            <div class="col text-right">
+                <a href="/contact-us"> <button type="button" class="btn btn-primary" style={{padding: "10px", margin: "10px"}}>Cancel</button></a>
+              
+            </div>
+        </div>
+        
+        {/* <SignUpToggleForm /> */}
       {/* <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
         <button class="btn btn-outline-success" type="submit">Search</button>
