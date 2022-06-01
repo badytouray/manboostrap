@@ -37,6 +37,11 @@ function PromoteEvents() {
                 </div>
 
                 <div class="input-group container">
+                <span class="input-group-text">Ticket Links</span>
+                <input type="text" aria-label="Last name" class="form-control" />
+                </div>
+
+                <div class="input-group container">
                 <span class="input-group-text">Date of event</span>
                 <input type="date" aria-label="Last name" class="form-control" />
                 </div>

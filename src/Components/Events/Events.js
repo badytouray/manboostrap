@@ -10,7 +10,9 @@ function Events() {
     <h1>Events</h1>
     <br />
     <br />
-    <div class="row row-cols-md-2 g-4 container-fluid d-flex justify-content-evenly col-xxl">
+    <div class="row g-4 container-fluid d-flex justify-content-evenly">
+
+      <div class="col-lg-4">
     <div class="card">
       <img src={Rampaige} class="card-img-top" alt="..." />
       <div class="card-body">
@@ -21,7 +23,9 @@ function Events() {
         </a>
       </div>
     </div>
+    </div>
 
+    <div class="col-lg-4">
     <div class="card">
       <img src={Rampaige} class="card-img-top" alt="..." />
       <div class="card-body">
@@ -32,9 +36,10 @@ function Events() {
         </a>
       </div>
     </div>
+    </div>
 
 
-
+    <div class="col-lg-4">
     <div class="card">
       <img src={Rampaige} class="card-img-top" alt="..." />
       <div class="card-body">
@@ -45,15 +50,13 @@ function Events() {
         </a>
       </div>
     </div>
-
-    <div class="card">
-      <img src={Rampaige} class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 class="card-title">Serial Killaz & Klue - Brighton 25th September</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <button type="button" class="btn btn-primary">Read more</button>
-      </div>
     </div>
+
+   
+
+
+
+   
   </div>
 
   

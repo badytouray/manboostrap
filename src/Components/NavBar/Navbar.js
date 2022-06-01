@@ -79,7 +79,7 @@ function NavBar() {
 
 <div class="row">
             <div class="col text-right">
-                <a href="/contact-us"> <button type="button" class="btn btn-primary" style={{padding: "10px", margin: "10px"}}>Cancel</button></a>
+                <a href="/contact-us"> <button type="button" class="btn btn-primary" style={{padding: "10px", margin: "10px"}}>Contact Us</button></a>
               
             </div>
         </div>

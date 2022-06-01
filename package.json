@@ -2,6 +2,7 @@
   "name": "manboostrap",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://badytouray.github.io/manboostrap",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@react-google-maps/api": "^2.11.8",
@@ -21,11 +22,14 @@
     "react-toastify": "^9.0.1",
     "web-vitals": "^2.1.4"
   },
+  
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "build": "react-scripts test",
     "eject": "react-scripts eject"
+
   },
   "eslintConfig": {
     "extends": [
