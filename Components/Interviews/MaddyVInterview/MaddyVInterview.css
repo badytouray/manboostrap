@@ -1,0 +1,33 @@
+
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .interview_questions  {
+      font-size: 24px;
+      margin: 5px;
+      padding: 10px;
+  }
+
+
+  .interview_answers {
+      margin: 5px;
+  }
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ /* .interviews {
+   margin: 10px;
+   padding: 10px;
+
+ } */

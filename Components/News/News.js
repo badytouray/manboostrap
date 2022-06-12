@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Events from '../Events/Events';
 import Footer from '../Footer/Footer'
 import FeaturedEvents from '../Home/FeaturedEvents/FeaturedEvents';
 import MaddyV from "../Images/MaddyV.jpeg";
