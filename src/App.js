@@ -15,7 +15,7 @@ import Gallary from "./Components/Gallary/Gallary";
 import Videos from "./Components/Videos/Videos";
 import ManCrew from "./Components/ManCrew/ManCrew";
 import TermsAndConditions from "./Components/TermsAndConditions/TermsAndConditions";
-import RampaigeInterview from "./Components/Interviews/RampaigeInterview/RampaigeInterview";
+
 import News from "./Components/News/News";
 import Home from "./Components/Home/Home";
 import LatestInterview from "./Components/LatestInterview/LatestInterview";
@@ -32,6 +32,7 @@ import MerchPrinting from "./Components/MerchPrinting/MerchPrinting";
 import FlyerPostersPrint from "./Components/FlyerPostersPrint/FlyerPostersPrint";
 import NewArrivals from "./Components/NewArrivals/NewArrivals";
 import Accessories from "./Components/Accessories/Accessories";
+import MaddyVInterview from "./Components/Interviews/MaddyVInterview/MaddyVInterview";
 
 // import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
@@ -58,7 +59,7 @@ function App() {
         <Route path="/video-gallery" element={<Videos />} />
         <Route path="/man-crew" element={<ManCrew />} />
         <Route path="/terms-and-conditions" element={<TermsAndConditions/>} />
-        <Route path="/maddy-v-interview" element={<RampaigeInterview/>} />
+        <Route path="/maddy-v-interview" element={<MaddyVInterview/>} />
         {/* <Route path="/rampaige-interview" element={<RampaigeInterview/>} /> */}
         <Route path="/news" element={<News/>} />
         <Route path="/home" element={<Home/>} />

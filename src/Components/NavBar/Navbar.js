@@ -32,9 +32,9 @@ function NavBar() {
         <li>
         <a class="nav-link active" aria-current="page" href="/interviews">Interviews</a>
         </li>
-        <li>
+        {/* <li>
         <a class="nav-link active" aria-current="page" href="/list-events">Promote event</a>
-        </li>
+        </li> */}
         {/* <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/faq">FAQ</a>
         </li> */}
@@ -53,7 +53,7 @@ function NavBar() {
           </ul>
         </li>
 
-        <li class="nav-item dropdown">
+        {/* <li class="nav-item dropdown">
           <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
           SHOP
           </a>
@@ -64,7 +64,7 @@ function NavBar() {
             <li><a class="dropdown-item" href="#"></a></li>
             <li><hr class="dropdown-divider" /></li>
           </ul>
-        </li>
+        </li> */}
         {/* <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/store">Store</a>
         </li> */}

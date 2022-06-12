@@ -4,24 +4,28 @@ import Rampaige from "../Images/Rampaige.jpg";
 import MaddyV from "../Images/MaddyV.jpeg";
 import "./Interviews.css";
 
+
 function Interviews() {
   return (
     <>
-    <br />
+    <br /><br />
         <h1>Latest Interviews</h1>
         <br />
-        <div class="card-group">
-  <div class="card">
+        <div class="card-group container bg-white row- ols-sm-2">
+
+  <div class="card" style={{ marginTop: "25px"}}>
   <a href="/maddy-v-interview" style={{ color: 'inherit', textDecoration: 'inherit'}}>
-    <img src={Rampaige} class="card-img-top" alt="..." style={{ margin: "10px", height: "400px", width: "450px"}}  />
+    <img src={Rampaige} class="card-img-top" alt="..." style={{ padding: "10px", height: "600px", width: "100%", justifyContent: "center"}}  />
     </a>
     <div class="card-body">
-      <h5 class="card-title">Rampaige</h5>
+      <h5 class="card-title">Mc Maddy V Interview</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <button type="button" class="btn btn-primary"> Read more</button>
+      <button type="button" class="btn btn-primary btn-lg"> Read more</button>
     </div>
   </div>
-  <div class="card">
+
+
+  {/* <div class="card">
     <img src={MaddyV} class="card-img-top" alt="..." style={{ margin: "10px", height: "400px", width: "450px"}}  />
     <div class="card-body">
       <h5 class="card-title">Maddy V best female Mc winner</h5>
@@ -29,6 +33,7 @@ function Interviews() {
       <button type="button" class="btn btn-primary">Read more</button>
     </div>
   </div>
+  
   <div class="card">
     <img src={Rampaige} class="card-img-top" alt="..." style={{ margin: "10px", height: "400px", width: "450px"}}   />
     <div class="card-body">
@@ -36,7 +41,7 @@ function Interviews() {
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
       <button type="button" class="btn btn-primary">Read more</button>
     </div>
-  </div>
+  </div> */}
 </div>
         <Footer />
     </>

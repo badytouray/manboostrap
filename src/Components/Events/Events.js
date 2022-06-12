@@ -2,6 +2,7 @@ import React from 'react'
 import Rampaige from "../Images/Rampaige.jpg";
 import "./Events.css"
 import Footer from "../Footer/Footer";
+import { Fade, Flip, Rotate, Zoom } from 'react-reveal';
 
 
 function Events() {
@@ -10,9 +11,9 @@ function Events() {
     <h1>Events</h1>
     <br />
     <br />
-    <div class="row g-4 container-fluid d-flex justify-content-evenly">
-
-      <div class="col-lg-4">
+    <div class="row g-6 container-fluid d-flex justify-content-evenly">
+<Fade left>
+      <div class="col-lg-12">
     <div class="card">
       <img src={Rampaige} class="card-img-top" alt="..." />
       <div class="card-body">
@@ -24,8 +25,10 @@ function Events() {
       </div>
     </div>
     </div>
+    </Fade>
 
-    <div class="col-lg-4">
+    <Fade right>
+    <div class="col-lg-12">
     <div class="card">
       <img src={Rampaige} class="card-img-top" alt="..." />
       <div class="card-body">
@@ -37,9 +40,11 @@ function Events() {
       </div>
     </div>
     </div>
+    </Fade>
 
 
-    <div class="col-lg-4">
+<Fade left>
+    <div class="col-lg-12">
     <div class="card">
       <img src={Rampaige} class="card-img-top" alt="..." />
       <div class="card-body">
@@ -51,7 +56,7 @@ function Events() {
       </div>
     </div>
     </div>
-
+    </Fade>
    
 
 

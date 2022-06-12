@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from '../Footer/Footer'
+import FeaturedEvents from '../Home/FeaturedEvents/FeaturedEvents';
 import "./Videos.css";
 
 function Videos() {
@@ -55,8 +56,8 @@ function Videos() {
 
 
 
-
-
+<br />
+<FeaturedEvents />
 
 <Footer />
     </>
